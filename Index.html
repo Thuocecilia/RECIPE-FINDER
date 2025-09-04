@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Recipe Finder — Pro</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>🍳 Recipe Finder</h1>
+      <p class="tagline">Search by name or ingredients • Save favorites • Build a shopping list</p>
+    </div>
+
+    <div class="toolbar">
+      <input id="searchName" type="search" placeholder="Search by recipe name…" autocomplete="off" />
+      <input id="searchIng" type="search" placeholder="What can I cook with… (e.g. eggs, tomato)" autocomplete="off" />
+      <select id="categorySelect" title="Category">
+        <option value="All">All</option>
+        <option>Breakfast</option>
+        <option>Lunch</option>
+        <option>Dinner</option>
+      </select>
+      <select id="timeFilter" title="Time filter">
+        <option value="any">Any time</option>
+        <option value="<30">Quick (&lt; 30 min)</option>
+        <option value="30-60">30–60 min</option>
+        <option value=">60">Long (&gt; 60 min)</option>
+      </select>
+      <select id="sortBy" title="Sort">
+        <option value="az">Sort: A–Z</option>
+        <option value="pop">Sort: Popularity</option>
+      </select>
+
+      <button id="randomBtn" class="btn">🎲 Random</button>
+      <button id="favoritesBtn" class="btn" data-mode="all">❤️ Favorites</button>
+      <button id="shoppingBtn" class="btn">🛒 Shopping List</button>
+      <button id="toggleTheme" class="btn" title="Toggle dark/light">🌙</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <aside class="achievements">
+      <div class="badges" id="badgesBar" aria-live="polite"></div>
+      <div class="streak" id="streakInfo">🔥 Streak: <span id="streakCount">0</span> day(s)</div>
+    </aside>
+
+    <section aria-live="polite" aria-busy="false">
+      <div id="recipesGrid" class="grid"></div>
+      <p id="emptyState" class="empty hidden">No recipes match your filters. Try clearing a filter or search.</p>
+    </section>
+  </main>
+
+  <!-- Recipe Modal -->
+  <div id="recipeModal" class="modal hidden" aria-hidden="true">
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" aria-label="Close" data-close="true">&times;</button>
+      
+      <!-- Fixed Hero -->
+      <div id="modalHero" class="modal-hero"></div>
+
+      <!-- Scrollable Content -->
+      <div class="modal-scroll">
+        <div class="modal-body">
+          <div class="modal-top">
+            <div>
+              <h2 id="modalTitle"></h2>
+              <p id="modalMeta" class="meta"></p>
+            </div>
+            <div class="modal-actions">
+              <button id="favBtn" class="btn-ghost" title="Add to favorites">❤️ Favorite</button>
+              <button id="startTimerBtn" class="btn">⏱️ Start Timer</button>
+            </div>
+          </div>
+
+          <div id="timerBox" class="timer hidden" aria-live="polite">
+            <span id="timerDisplay">00:00</span>
+            <button id="stopTimerBtn" class="btn-ghost">Stop</button>
+          </div>
+
+          <h3>Ingredients</h3>
+          <ul id="ingredientsList" class="list ingredients"></ul>
+          <div class="list-actions">
+            <button id="addSelectedToList" class="btn">➕ Add Selected to Shopping List</button>
+          </div>
+
+          <h3>Steps</h3>
+          <ol id="stepsList" class="list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shopping List Drawer -->
+  <div id="shoppingDrawer" class="drawer hidden" aria-hidden="true">
+    <div class="drawer-panel">
+      <div class="drawer-head">
+        <h2>🛒 Shopping List</h2>
+        <button id="closeDrawer" class="btn-ghost">&times;</button>
+      </div>
+      <ul id="shoppingItems" class="shopping"></ul>
+      <div class="drawer-actions">
+        <button id="clearPurchased" class="btn-ghost">Clear purchased</button>
+        <button id="clearAll" class="btn-ghost">Clear all</button>
+      </div>
+    </div>
+    <div class="drawer-backdrop" data-close="drawer"></div>
+  </div>
+
+  <!-- Toasts / Badge pop -->
+  <div id="toastArea" class="toast-area" aria-live="polite"></div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
