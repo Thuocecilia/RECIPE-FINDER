@@ -56,7 +56,7 @@ A modern, interactive web application for discovering, managing, and cooking rec
 ## Demo
 
 Add a live demo link if deployed, for example:  
-[https://yourusername.github.io/RECIPE-FINDER](https://yourusername.github.io/RECIPE-FINDER)  
+https://github.com/PLP-Database-DEPT/booking.git
 
 ---
 
