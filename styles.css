@@ -374,3 +374,36 @@ body.light {
     flex-direction: column;
   }
 }
+.recipe-details {
+  max-height: 60vh;   /* limits height to 60% of screen */
+  overflow-y: auto;   /* adds scroll inside */
+  padding-right: 10px; /* so scrollbar doesn’t overlap text */
+}
+
+/* Optional: nice custom scrollbar */
+.recipe-details::-webkit-scrollbar {
+  width: 6px;
+}
+.recipe-details::-webkit-scrollbar-thumb {
+  background: #666;
+  border-radius: 3px;
+}
+.modal-dialog {
+  display: flex;
+  flex-direction: column;
+  max-height: 90vh; /* keep modal within viewport */
+}
+
+.modal-hero {
+  flex: 0 0 auto;
+  height: 200px; /* adjust hero height */
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.modal-scroll {
+  flex: 1 1 auto;
+  overflow-y: auto; /* <-- THIS makes it scroll */
+  padding: 1rem;
+}

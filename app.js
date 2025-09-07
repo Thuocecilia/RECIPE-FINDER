@@ -23,8 +23,23 @@ const recipes = [
     description: "Crunchy toast topped with creamy avocado & chili flakes.",
     image: 
     "https://images.unsplash.com/photo-1755177523467-bc1974524fc2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fENydW5jaHklMjB0b2FzdCUyMHRvcHBlZCUyMHdpdGglMjBjcmVhbXklMjBhdm9jYWRvJTIwJTI2JTIwY2hpbGklMjBmbGFrZXN8ZW58MHx8MHx8fDA%3D",
-    ingredients: ["Bread", "Avocado", "Salt", "Pepper", "Chili flakes", "Lemon juice"],
-    steps: ["Toast bread.", "Mash avocado with lemon, salt & pepper.", "Spread and top with chili flakes."]
+     ingredients: [
+    "2 slices sourdough or multigrain bread",
+    "1 ripe avocado",
+    "1 tsp lemon or lime juice",
+    "1 tbsp cream cheese (optional)",
+    "Salt & black pepper (to taste)",
+    "Red chili flakes or smoked paprika",
+    "Olive oil (for drizzling)",
+    "Optional: cherry tomatoes, radishes, poached egg, feta, microgreens"],
+  steps: [
+    "Toast the bread until golden and crisp on both sides. Optionally drizzle with olive oil before toasting.",
+    "Cut the avocado in half, remove the pit, and scoop the flesh into a bowl.",
+    "Mash the avocado with a fork, keeping it slightly chunky. Mix in lemon juice, salt, and black pepper.",
+    "Spread the mashed avocado generously over the toasted bread.",
+    "Sprinkle with chili flakes or smoked paprika, and drizzle a little olive oil.",
+    "Add deluxe toppings if desired: cherry tomatoes, radishes, a poached egg, crumbled feta, or microgreens.",
+    "Serve immediately while warm and enjoy!"  ]
   },
   {
     id: 3,
@@ -33,8 +48,31 @@ const recipes = [
     minutes: 25,
     description: "Light, protein-packed salad with zesty dressing.",
     image: "https://plus.unsplash.com/premium_photo-1692309186600-03bb12fd3adb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8TGlnaHQlMkMlMjBwcm90ZWluJTIwcGFja2VkJTIwc2FsYWQlMjB3aXRoJTIwemVzdHklMjBkcmVzc2luZy58ZW58MHx8MHx8fDA%3D",
-    ingredients: ["Chicken breast", "Lettuce", "Cherry tomatoes", "Cucumber", "Olive oil", "Lemon"],
-    steps: ["Season & grill chicken.", "Chop veggies.", "Toss with dressing; slice chicken on top."]
+     ingredients: [
+    "2 boneless skinless chicken breasts",
+    "1 tbsp olive oil (for chicken)",
+    "1 tsp garlic powder",
+    "1 tsp paprika",
+    "Salt & black pepper (to taste)",
+    "4 cups mixed salad greens (lettuce, spinach, arugula)",
+    "1/2 cucumber, sliced",
+    "1/2 red bell pepper, sliced",
+    "1/4 red onion, thinly sliced",
+    "1/2 cup cherry tomatoes, halved",
+    "1/4 cup feta cheese or goat cheese (optional)",
+    "1/4 cup croutons (optional)",
+    "For the dressing: 3 tbsp olive oil, 1 tbsp lemon juice, 1 tsp Dijon mustard, 1 tsp honey, salt & pepper"
+  ],
+  steps: [
+    "Preheat a grill pan or outdoor grill over medium-high heat.",
+    "Pound chicken breasts lightly so they cook evenly. Rub with olive oil, garlic powder, paprika, salt, and pepper.",
+    "Grill chicken for 5–6 minutes per side, or until fully cooked (internal temp 165°F / 75°C). Remove and let rest 5 minutes before slicing.",
+    "Meanwhile, prepare the salad base: arrange mixed greens, cucumber, bell pepper, onion, and cherry tomatoes in a large bowl or plate.",
+    "In a small bowl or jar, whisk together olive oil, lemon juice, Dijon mustard, honey, salt, and pepper until smooth and emulsified.",
+    "Slice the rested chicken into strips and place on top of the salad.",
+    "Sprinkle with feta cheese and croutons if desired.",
+    "Drizzle dressing over the salad just before serving and toss gently.",
+    "Serve immediately and enjoy a light, protein-packed meal!" ]
   },
   {
     id: 4,
@@ -44,9 +82,33 @@ const recipes = [
     description: "Colorful pasta with seasonal vegetables.",
     image: 
     "https://images.unsplash.com/photo-1609582848349-215e8bf397d3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q29sb3JmdWwlMjBwYXN0YSUyMHdpdGglMjBzZWFzb25hbCUyMHZlZ2V0YWJsZXN8ZW58MHx8MHx8fDA%3D",
-    ingredients: ["Pasta", "Bell peppers", "Zucchini", "Peas", "Garlic", "Parmesan"],
-    steps: ["Boil pasta.", "Sauté veggies & garlic.", "Combine with pasta and cheese."]
-  },
+    ingredients: [
+    "300g (10 oz) pasta (penne, spaghetti, or fusilli)",
+    "2 tbsp olive oil",
+    "2 cloves garlic, minced",
+    "1 small zucchini, sliced into half-moons",
+    "1 small yellow squash, sliced",
+    "1 red bell pepper, thinly sliced",
+    "1 cup broccoli florets",
+    "1 small carrot, thinly sliced",
+    "1/2 cup cherry tomatoes, halved",
+    "1/4 cup grated Parmesan cheese (optional)",
+    "Fresh basil or parsley for garnish",
+    "Salt & black pepper to taste",
+    "Pinch of red pepper flakes (optional)"
+  ],
+  steps: [
+    "Bring a large pot of salted water to a boil. Cook pasta according to package instructions until al dente. Reserve 1/2 cup of pasta water, then drain.",
+    "While pasta cooks, heat olive oil in a large skillet over medium heat. Add garlic and sauté for 30 seconds until fragrant.",
+    "Add zucchini, yellow squash, bell pepper, carrot, and broccoli. Sauté for 6–8 minutes until vegetables are tender but still crisp.",
+    "Add cherry tomatoes and cook 1–2 minutes more until they soften slightly.",
+    "Season with salt, black pepper, and a pinch of red pepper flakes if using.",
+    "Add the cooked pasta to the skillet with vegetables. Toss everything together, adding a splash of reserved pasta water if the dish seems dry.",
+    "Remove from heat and sprinkle with grated Parmesan cheese if desired.",
+    "Garnish with fresh basil or parsley.",
+    "Serve warm and enjoy a light yet satisfying veggie-packed dinner!"
+  ]
+},
   {
     id: 5,
     name: "One-Pan Lemon Fish",
@@ -54,9 +116,29 @@ const recipes = [
     minutes: 22,
     description: "Fast, flaky white fish baked with lemon & herbs.",
     image: "https://plus.unsplash.com/premium_photo-1674498271055-3f7e00d92854?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEZhc3QlMkMlMjBmbGFreSUyMHdoaXRlJTIwZmlzaCUyMGJha2VkJTIwd2l0aCUyMGxlbW9uJTIwJTI2JTIwaGVyYnN8ZW58MHx8MHx8fDA%3D",
-    ingredients: ["White fish fillets", "Lemon", "Parsley", "Olive oil", "Salt", "Pepper"],
-    steps: ["Preheat oven 200°C.", "Season fish; add lemon & oil.", "Bake 12–15 min until flaky."]
-  },
+      ingredients: [
+    "2 white fish fillets (cod, tilapia, or halibut)",
+    "2 tbsp olive oil",
+    "2 tbsp butter, melted",
+    "2 cloves garlic, minced",
+    "1 lemon (juice + zest, plus extra slices for garnish)",
+    "1/2 tsp paprika",
+    "Salt & black pepper to taste",
+    "Fresh parsley, chopped (for garnish)",
+    "Optional sides: asparagus, cherry tomatoes, or green beans (to cook in the same pan)"
+  ],
+  steps: [
+    "Preheat the oven to 400°F (200°C). Lightly grease a baking dish or sheet pan.",
+    "Pat the fish fillets dry with a paper towel and place them on the prepared pan.",
+    "In a small bowl, whisk together olive oil, melted butter, minced garlic, lemon juice, lemon zest, paprika, salt, and black pepper.",
+    "Pour the lemon-garlic mixture evenly over the fish fillets.",
+    "Arrange lemon slices on top of each fillet for extra flavor and presentation.",
+    "If adding veggies like asparagus or cherry tomatoes, toss them lightly with olive oil, salt, and pepper, and arrange them around the fish in the same pan.",
+    "Bake for 12–15 minutes, or until the fish flakes easily with a fork (internal temp: 145°F / 63°C).",
+    "Remove from the oven and garnish with freshly chopped parsley.",
+    "Serve immediately with rice, potatoes, or a light salad for a complete meal."
+  ]
+},
   {
     id: 6,
     name: "Stir-Fry Beef & Broccoli",
@@ -64,9 +146,36 @@ const recipes = [
     minutes: 18,
     description: "Savory quick stir-fry with tender beef.",
     image: "https://images.unsplash.com/photo-1622052073730-04bbc497be48?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fFNhdm9yeSUyMHF1aWNrJTIwc3RpciUyMGZyeSUyMHdpdGglMjB0ZW5kZXIlMjBiZWVmfGVufDB8fDB8fHww",
-    ingredients: ["Beef strips", "Broccoli", "Soy sauce", "Garlic", "Cornstarch", "Ginger"],
-    steps: ["Marinate beef 10 min.", "Stir-fry broccoli; set aside.", "Sear beef; combine with sauce & broccoli."]
-  },
+    ingredients: [
+    "1 lb (450g) flank steak or sirloin, thinly sliced against the grain",
+    "2 cups broccoli florets",
+    "2 tbsp vegetable oil (divided)",
+    "3 cloves garlic, minced",
+    "1-inch piece fresh ginger, grated",
+    "1/4 cup low-sodium soy sauce",
+    "2 tbsp oyster sauce",
+    "1 tbsp hoisin sauce (optional, for sweetness)",
+    "1 tbsp cornstarch",
+    "1/4 cup beef or chicken broth (or water)",
+    "1 tsp sesame oil",
+    "1/2 tsp crushed red pepper flakes (optional, for heat)",
+    "Sesame seeds & green onions for garnish",
+    "Cooked rice or noodles, for serving"
+  ],
+  steps: [
+    "In a small bowl, whisk together soy sauce, oyster sauce, hoisin sauce (if using), cornstarch, and broth. Set aside — this is your stir-fry sauce.",
+    "Heat 1 tbsp of vegetable oil in a large skillet or wok over medium-high heat.",
+    "Add the sliced beef in a single layer and sear for 2–3 minutes until browned but not fully cooked. Remove beef from the pan and set aside.",
+    "Add the remaining 1 tbsp oil to the same pan. Toss in garlic and ginger, cooking for about 30 seconds until fragrant.",
+    "Add broccoli florets and stir-fry for 2–3 minutes, adding a splash of water if needed to help them steam and soften.",
+    "Return the beef to the pan, pour in the prepared stir-fry sauce, and toss everything together.",
+    "Cook for another 2–3 minutes until the sauce thickens slightly and coats the beef and broccoli, and the beef is fully cooked through.",
+    "Drizzle sesame oil over the stir-fry, stir once more, then remove from heat.",
+    "Garnish with sesame seeds and sliced green onions.",
+    "Serve hot over steamed rice or noodles for a complete meal."
+  ]
+},
+  
   {
     id: 7,
     name: "Blueberry Overnight Oats",
@@ -74,9 +183,28 @@ const recipes = [
     minutes: 5,
     description: "No-cook oats ready for busy mornings.",
     image: "https://plus.unsplash.com/premium_photo-1661340928826-8098bdc886ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fE5vJTIwY29vayUyMG9hdHMlMjByZWFkeSUyMGZvciUyMGJ1c3klMjBtb3JuaW5nc3xlbnwwfHwwfHx8MA%3D%3D",
-    ingredients: ["Rolled oats", "Milk or yogurt", "Blueberries", "Honey", "Chia seeds"],
-    steps: ["Mix all in jar.", "Refrigerate overnight.", "Top with extra berries to serve."]
-  },
+   ingredients: [
+    "1/2 cup old-fashioned rolled oats",
+    "1/2 cup milk (dairy or plant-based)",
+    "1/4 cup Greek yogurt",
+    "1 tbsp chia seeds (optional, for thickness and fiber)",
+    "1 tbsp honey or maple syrup",
+    "1/2 tsp vanilla extract",
+    "1/4 tsp ground cinnamon",
+    "1/2 cup fresh or frozen blueberries",
+    "Toppings: extra blueberries, sliced almonds, shredded coconut, or granola"
+  ],
+  steps: [
+    "In a mason jar or airtight container, add rolled oats, milk, Greek yogurt, chia seeds, honey, vanilla extract, and cinnamon.",
+    "Stir well until everything is evenly mixed and no dry oats remain.",
+    "Fold in the blueberries gently so they are distributed throughout the mixture.",
+    "Cover the jar/container with a lid and refrigerate for at least 4 hours, preferably overnight.",
+    "In the morning, give the oats a good stir. If it’s too thick, add a splash of milk to loosen it.",
+    "Top with extra blueberries, almonds, coconut, or granola before serving.",
+    "Enjoy chilled as a quick grab-and-go breakfast!"
+  ]
+},
+   
   {
     id: 8,
     name: "Tomato Basil Soup",
@@ -84,9 +212,35 @@ const recipes = [
     minutes: 20,
     description: "Comforting soup with fresh basil aroma.",
     image: "https://images.unsplash.com/photo-1716959669858-11d415bdead6?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    ingredients: ["Tomatoes", "Onion", "Garlic", "Vegetable stock", "Basil", "Cream (optional)"],
-    steps: ["Sauté onion & garlic.", "Add tomatoes & stock; simmer.", "Blend smooth; stir in basil."]
-  },
+     ingredients: [
+    "2 tbsp olive oil or butter",
+    "1 medium onion, chopped",
+    "3 garlic cloves, minced",
+    "2 cans (14 oz each) crushed tomatoes (or fresh ripe tomatoes, peeled & chopped)",
+    "2 cups vegetable broth (or chicken broth)",
+    "1 tbsp tomato paste (optional, for richness)",
+    "1 tsp sugar (balances acidity)",
+    "1/2 tsp salt (to taste)",
+    "1/4 tsp black pepper",
+    "1/4 tsp red pepper flakes (optional, for a little heat)",
+    "1/2 cup fresh basil leaves (loosely packed)",
+    "1/2 cup heavy cream or half-and-half (optional, for creamy version)",
+    "Parmesan cheese, croutons, or fresh basil for garnish"
+  ],
+  steps: [
+    "Heat olive oil or butter in a large pot over medium heat.",
+    "Add chopped onion and cook until soft and translucent (5–6 minutes).",
+    "Stir in minced garlic and cook for 1 minute, until fragrant.",
+    "Add crushed tomatoes, broth, tomato paste, sugar, salt, black pepper, and red pepper flakes.",
+    "Stir well, then bring to a boil. Reduce heat and let it simmer uncovered for 20–25 minutes, allowing flavors to meld.",
+    "Remove from heat and stir in fresh basil leaves.",
+    "Use an immersion blender (or transfer to a blender in batches) to puree the soup until smooth. Leave some chunks if you prefer rustic texture.",
+    "Return soup to low heat. Stir in heavy cream if making a creamy version, and adjust seasoning with more salt/pepper if needed.",
+    "Serve hot, garnished with Parmesan cheese, croutons, or extra basil leaves.",
+    "Pairs perfectly with a grilled cheese sandwich or crusty bread."
+  ]
+},
+  
   {
     id: 9,
     name: "Spicy Pilau Rice",
@@ -94,9 +248,42 @@ const recipes = [
     minutes: 40,
     description: "Fragrant rice with warm spices.",
     image: "https://images.unsplash.com/photo-1723691802798-fa6efc67b2c9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fEZyYWdyYW50JTIwcmljZSUyMHdpdGglMjB3YXJtJTIwc3BpY2VzfGVufDB8fDB8fHww",
-    ingredients: ["Rice", "Onion", "Pilau masala", "Stock", "Cumin", "Bay leaf"],
-    steps: ["Toast spices & onion.", "Add rice & stock.", "Simmer covered until fluffy."]
-  }
+    ingredients: [
+    "2 cups basmati rice (washed & soaked 20 min)",
+    "4 cups water or broth",
+    "2 tbsp vegetable oil or ghee",
+    "2 medium onions, thinly sliced",
+    "2 garlic cloves, minced",
+    "1 tbsp fresh ginger, minced",
+    "2 medium tomatoes, chopped (or 1/2 cup tomato puree)",
+    "1–2 green chilies, slit (adjust heat to taste)",
+    "1 tsp ground cumin",
+    "1 tsp ground coriander",
+    "1 tsp turmeric powder",
+    "1 tsp garam masala",
+    "1 tsp ground cardamom",
+    "2–3 whole cloves",
+    "1 cinnamon stick",
+    "2 bay leaves",
+    "1/2 tsp black pepper",
+    "Salt to taste",
+    "Optional: 1 lb beef/chicken/lamb (cubed & browned)",
+    "Optional garnish: fresh cilantro, fried onions, lemon wedges"
+  ],
+  steps: [
+    "Rinse and soak the basmati rice for about 20 minutes, then drain.",
+    "In a large heavy pot, heat oil or ghee over medium heat.",
+    "Add sliced onions and cook slowly until deep golden brown and caramelized (about 10–12 minutes).",
+    "Add garlic, ginger, and green chilies. Cook for 1–2 minutes until fragrant.",
+    "Stir in tomatoes and cook until softened and saucy (5 minutes).",
+    "Mix in the spices: cumin, coriander, turmeric, garam masala, cardamom, cloves, cinnamon stick, bay leaves, black pepper, and salt.",
+    "If using meat, add browned beef/chicken/lamb now. Stir to coat with the spices.",
+    "Add drained rice and gently stir to coat every grain with the spiced mixture.",
+    "Pour in water or broth. Bring to a boil, then reduce heat to low. Cover tightly with a lid.",
+    "Simmer for 18–20 minutes (do not stir). Remove from heat and let rest 5–10 minutes.",
+    "Fluff rice gently with a fork. Remove whole spices if desired.",
+    "Serve hot, garnished with cilantro, fried onions, or lemon wedges."]
+  },
 ];
 
 /* ---------- DOM ---------- */
