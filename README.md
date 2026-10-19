@@ -56,7 +56,7 @@ A modern, interactive web application for discovering, managing, and cooking rec
 ## Demo
 
 Add a live demo link if deployed, for example:  
-https://68bbed65a107609283f27919--delicioustastes.netlify.app/
+http://127.0.0.1:5502/Index.html
 
 ---
 
